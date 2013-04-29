@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <title>Simple Text Slider Demo - Nikhil Navadiya</title>
+	<meta name="description" content="jQuery Simple Text Slider Demo">
+	<meta name="keywords" content="Nikhil Navadiya, slider, text slider, text-slider, jQuery, javascript, css">
+	<link rel="alternate" type="application/rss+xml" href="http://blog.nikhilnavadiya.in/rss">
+	<!-- STYLESHEETS : begin -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/icomonn.css">
+	<!-- STYLESHEETS : end -->
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+    <script src="js/jquery.simpleslider.js"></script>
+	<!--[if lte IE 7]><script src="css/lte-ie7.js"></script><![endif]-->
+	
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-40477669-2']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+	</script>
+	</head>
+	<body class=" indexpage">
+		<div id="top" class="container">
+			<div id="wrapper">
+				<div id="profile">
+					<div class="profile-inner">
+					</div>
+				</div>
+				<!-- HEADER : begin -->
+				<header>
+					<div class="row">
+						<div class="offset1 span6">
+							<!-- LOGO : begin -->
+							<div id="logo">
+								<a href="">Simple Text Slider</a>
+							</div>
+							<!-- LOGO : end -->
+						</div>
+						<div class="span4">
+							<a href="https://github.com/nikhiln/Simple-Slider" class="githublink"><i class="icon-github"></i><span>Fork me on GitHub</span></a>
+						</div>
+					</div>
+				</header>
+				<!-- HEADER : end -->
+				<!-- TITLE : begin -->
+				<div id="title" class="">
+					<div class="row">
+						<div class="offset1 span10">
+							<div class="title-inner">
+								<h1><strong>Hi there! Here's the examples of very basic text slider...</strong></h1>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- DESCRIPTION : end -->
+				
+				<div class="core">
+					<div class="row" style="padding-left: 10%;">
+						<div class="row">
+							<div class="span3">
+							<h3>Converting "div" into slider</h3>
+								<code>
+									duration=400<br/>
+									slide-transition=2000
+								</code>
+							</div>
+							<div class="span8" style="padding-top: 22px;min-height: 180px;">
+								<div class="div-slider">
+									<h1>Google’s mission is to organize the world’s information and make it universally accessible and useful.</h1>
+									<h1>Facebook's mission is to make the world more open and connected.</h1>
+									<h1>Yahoo! is focused on making the world's daily habits inspiring and entertaining</h1>
+									<h1>Linked In's mission is to connect the world's professionals to make them more productive and successful.</h1> 
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="row" style="min-height: 200px;">
+					</div>
+				</div>
+			
+				
+				<!-- WIDGETS : begin -->
+				<div id="widgets">
+					<div id="snipet-widget" class="loading widget light-loader">
+						<div class="widget-inner">
+							<div class="row">
+								<div class="span10 offset1 title">
+									<h3>Also check out a beutiful <a href="http://nikhilnavadiya.in/lab/CircularCountDown/" class="bottom-link">circular countdown</a> or fork it on <a href="https://github.com/nikhiln/Circular-Countdown" class="bottom-link">github</a>.</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- FOOTER : begin -->
+        <footer class="centered">
+            <p>Made in A'bad with <i class=" icon-heart-empty"></i> by <a href="http://www.nikhilnavadiya.in">Nikhil Navadiya</a></p>
+            <!-- SOCIAL ICONS : begin -->
+            <ul class="social-icons light-icons">
+                <li class="twitter"><a href="http://twitter.com/nikhil_navadiya"><i class="icon-twitter"></i></a></li>
+                <li class="facebook"><a href="http://facebook.com/nikhil.navadiya.1"><i class="icon-facebook"></i></a></li>
+				<li class="googleplus"><a href="https://github.com/nikhiln"><i class="icon-github"></i></a></li>
+                <li class="googleplus"><a href="https://plus.google.com/u/0/114184346678069659264"><i class="icon-google-plus"></i></a></li>
+                <li class="email"><a href="mailto:nikhil.navadiya@gmail.com"><i class="icon-mail"></i></a></li>
+            </ul>
+            <!-- SOCIAL ICONS : end -->
+            <a href="#top" class="back-to-top"><i class="icon-arrow-up-2"></i></a>
+        </footer>
+        <!-- FOOTER : end -->
+		</div>
+		
+		<script>
+			$( document ).ready(function() {
+				/* initilizing and starting text slider */
+				$(".div-slider").simpleslider({"duration":400, "slide-transition": 2000});
+			});
+		</script>
+    
+		
+		<!-- GOOGLE WEB FONTS : begin -->
+		<script type="text/javascript">
+			var primary_font_code = 'Sintony:400,700:latin,latin-ext';
+			var secondary_font_code = 'Bree+Serif::latin,latin-ext';
+			var web_fonts = [primary_font_code];
+			if(secondary_font_code != ''){
+			    web_fonts.push(secondary_font_code);
+			}
+			
+			WebFontConfig = {
+			    google: { families: web_fonts }
+			};
+			(function() {
+			    var wf = document.createElement('script');
+			    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+			    '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+			    wf.type = 'text/javascript';
+			    wf.async = 'true';
+			    var s = document.getElementsByTagName('script')[0];
+			    s.parentNode.insertBefore(wf, s);
+			})();
+			
+		</script>
+		<!-- GOOGLE WEB FONTS : end -->
+	</body>
+</html>
